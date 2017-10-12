@@ -6,7 +6,7 @@ apply plugin: 'distribution'
 mainClassName = 'newbee.morningGlory.GameApp'
 
 group = 'morningGlory'
-version = '1.2-SNAPSHOT'
+version = ''
 
 description = """MorningGlory GameServer"""
 
