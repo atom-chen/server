@@ -1,0 +1,3 @@
+rootProject.name = 'mmorpg'
+
+includeFlat 'sophia.game','sophia.stat'

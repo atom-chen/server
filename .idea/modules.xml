@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gameserver.iml" filepath="$PROJECT_DIR$/.idea/modules/gameserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gameserver_main.iml" filepath="$PROJECT_DIR$/.idea/modules/gameserver_main.iml" group="gameserver" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/gameserver_test.iml" filepath="$PROJECT_DIR$/.idea/modules/gameserver_test.iml" group="gameserver" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sophia.foundation/sophia.foundation.iml" filepath="$PROJECT_DIR$/.idea/modules/sophia.foundation/sophia.foundation.iml" group="sophia.foundation" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sophia.foundation/sophia.foundation_main.iml" filepath="$PROJECT_DIR$/.idea/modules/sophia.foundation/sophia.foundation_main.iml" group="sophia.foundation" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sophia.foundation/sophia.foundation_test.iml" filepath="$PROJECT_DIR$/.idea/modules/sophia.foundation/sophia.foundation_test.iml" group="sophia.foundation" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sophia.game/sophia.game.iml" filepath="$PROJECT_DIR$/.idea/modules/sophia.game/sophia.game.iml" group="sophia.game" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sophia.game/sophia.game_main.iml" filepath="$PROJECT_DIR$/.idea/modules/sophia.game/sophia.game_main.iml" group="sophia.game" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sophia.game/sophia.game_test.iml" filepath="$PROJECT_DIR$/.idea/modules/sophia.game/sophia.game_test.iml" group="sophia.game" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sophia.mmorpg/sophia.mmorpg.iml" filepath="$PROJECT_DIR$/.idea/modules/sophia.mmorpg/sophia.mmorpg.iml" group="sophia.mmorpg" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sophia.mmorpg/sophia.mmorpg_main.iml" filepath="$PROJECT_DIR$/.idea/modules/sophia.mmorpg/sophia.mmorpg_main.iml" group="sophia.mmorpg" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sophia.mmorpg/sophia.mmorpg_test.iml" filepath="$PROJECT_DIR$/.idea/modules/sophia.mmorpg/sophia.mmorpg_test.iml" group="sophia.mmorpg" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sophia.stat/sophia.stat.iml" filepath="$PROJECT_DIR$/.idea/modules/sophia.stat/sophia.stat.iml" group="sophia.stat" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sophia.stat/sophia.stat_main.iml" filepath="$PROJECT_DIR$/.idea/modules/sophia.stat/sophia.stat_main.iml" group="sophia.stat" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/sophia.stat/sophia.stat_test.iml" filepath="$PROJECT_DIR$/.idea/modules/sophia.stat/sophia.stat_test.iml" group="sophia.stat" />
+    </modules>
+  </component>
+</project>

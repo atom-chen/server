@@ -1,0 +1,17 @@
+apply plugin: 'java'
+
+dependencies {
+	compile project(':sophia.foundation')  
+
+    compile group: 'junit', name: 'junit', version:'4.10'
+    compile group: 'log4j', name: 'log4j', version:'1.2.12'
+    compile group: 'com.googlecode.guava-osgi', name: 'guava-osgi', version:'11.0.0'
+    compile group: 'mysql', name: 'mysql-connector-java', version:'5.1.21'
+    compile(group: 'com.cloudhopper.proxool', name: 'proxool', version:'0.9.1') {
+        exclude(module: 'servlet-api')
+    }
+    compile group: 'com.cloudhopper.proxool', name: 'proxool-cglib', version:'0.9.1'
+    compile group: 'org.slf4j', name: 'slf4j-api', version:'1.7.3'
+    compile group: 'org.slf4j', name: 'slf4j-log4j12', version:'1.7.3'
+    compile group: 'org.apache.maven.plugins', name: 'maven-shade-plugin', version:'2.2'
+}

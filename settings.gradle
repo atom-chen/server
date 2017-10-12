@@ -1,0 +1,3 @@
+rootProject.name = 'gameserver'
+
+include 'sophia.mmorpg','sophia.game','sophia.stat','sophia.foundation'

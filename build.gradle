@@ -1,0 +1,56 @@
+apply plugin: 'java'
+apply plugin: 'groovy'
+apply plugin: 'application'
+apply plugin: 'distribution'
+
+mainClassName = 'newbee.morningGlory.GameApp'
+
+group = 'morningGlory'
+version = '1.2-SNAPSHOT'
+
+description = """MorningGlory GameServer"""
+
+
+allprojects {
+    sourceCompatibility = 1.8
+    targetCompatibility = 1.8
+
+    tasks.withType(JavaCompile) {
+        options.encoding = 'UTF-8'
+        // options.compilerArgs << "-Xlint:unchecked" << "-Xlint:deprecation"
+    }
+
+    tasks.withType(GroovyCompile) {
+        options.encoding = 'UTF-8'
+    }
+    
+    repositories {
+        mavenCentral()
+    }
+}
+
+sourceSets {
+    main {
+        java { srcDirs = [] }    // no source dirs for the java compiler
+        groovy { srcDirs = ["src/main/java"] }  // compile everything in src/ with groovy
+    }
+}
+
+dependencies {
+    compile project(':sophia.mmorpg')
+    
+    compile group: 'org.codehaus.groovy', name: 'groovy-all', version:'2.1.2'
+    compile group: 'junit', name: 'junit', version:'4.10'
+    compile group: 'log4j', name: 'log4j', version:'1.2.12'
+    compile group: 'com.googlecode.guava-osgi', name: 'guava-osgi', version:'11.0.0'
+    compile group: 'org.apache.mina', name: 'mina-core', version:'2.0.7'
+    compile group: 'mysql', name: 'mysql-connector-java', version:'5.1.21'
+    compile group: 'org.slf4j', name: 'slf4j-api', version:'1.7.3'
+    compile group: 'org.slf4j', name: 'slf4j-log4j12', version:'1.7.3'
+    compile group: 'org.apache.tomcat.embed', name: 'tomcat-embed-core', version:'7.0.81'
+    compile group: 'org.apache.tomcat', name: 'tomcat-util', version:'7.0.81'
+    compile group: 'org.apache.tomcat.embed', name: 'tomcat-embed-jasper', version:'7.0.81'
+    compile group: 'org.apache.tomcat.embed', name: 'tomcat-embed-logging-juli', version:'7.0.81'
+    compile group: 'bsh', name: 'bsh', version:'2.0b4'
+    compile group: 'backport-util-concurrent', name: 'backport-util-concurrent', version:'3.1'
+}

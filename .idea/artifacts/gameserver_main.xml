@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" build-on-make="true" name="gameserver_main">
+    <output-path>$PROJECT_DIR$/out/artifacts/gameserver_main</output-path>
+    <root id="archive" name="gameserver_main.jar">
+      <element id="archive" name="gameserver_main.jar">
+        <element id="module-output" name="gameserver_main" />
+      </element>
+    </root>
+  </artifact>
+</component>

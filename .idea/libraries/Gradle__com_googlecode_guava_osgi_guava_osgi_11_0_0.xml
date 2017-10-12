@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: com.googlecode.guava-osgi:guava-osgi:11.0.0">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.googlecode.guava-osgi/guava-osgi/11.0.0/e589cc57c7815532a28f38068fca67fa97dbbcfe/guava-osgi-11.0.0.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.googlecode.guava-osgi/guava-osgi/11.0.0/a7f5af5e2a1913869a4abc678bd148d6622d4ad9/guava-osgi-11.0.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

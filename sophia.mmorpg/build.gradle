@@ -1,0 +1,23 @@
+apply plugin: 'java'
+apply plugin: 'groovy'
+
+sourceSets {
+    main {
+        java { srcDirs = [] }    // no source dirs for the java compiler
+        groovy { srcDirs = ["src/main/java"] }  // compile everything in src/ with groovy
+    }
+}
+
+dependencies {
+    compile project(':sophia.game')  
+    compile project(':sophia.stat')  
+
+    compile group: 'org.codehaus.groovy', name: 'groovy-all', version:'2.1.2'
+    compile group: 'log4j', name: 'log4j', version:'1.2.12'
+    compile group: 'com.googlecode.guava-osgi', name: 'guava-osgi', version:'11.0.0'
+    compile group: 'org.apache.mina', name: 'mina-core', version:'2.0.7'
+    compile group: 'net.minidev', name: 'json-smart', version:'1.1.1'
+    compile group: 'commons-io', name: 'commons-io', version:'2.4'
+    compile group: 'org.apache.commons', name: 'commons-lang3', version:'3.1'
+    compile group: 'org.apache.httpcomponents', name: 'httpclient', version:'4.2.3'
+}
