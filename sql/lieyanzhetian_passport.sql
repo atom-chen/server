@@ -14,6 +14,10 @@
  Date: 12/10/2017 12:31:28
 */
 
+CREATE DATABASE /*!32312 IF NOT EXISTS*/`lieyanzhetian_passport` /*!40100 DEFAULT CHARACTER SET utf8 */;
+
+USE `lieyanzhetian_passport`;
+
 SET NAMES utf8mb4;
 SET FOREIGN_KEY_CHECKS = 0;
 
